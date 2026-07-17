@@ -20,7 +20,7 @@ A lightweight desktop application for browsing, organizing and managing installe
 
 </div>
 
-![mod-manager]()
+![mod-manager](assets/mod-manager.png)
 
 ---
 
