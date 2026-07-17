@@ -11,6 +11,7 @@ using StardewValley.GameData.Objects;
 namespace SVSAP.Content;
 
 internal sealed class ContentInjector
+    f
 {
     private const string FreeRecipeIngredientList = "(O)388 0";
     private const string ObjectSpriteAsset = "Mods/" + ModItemCatalog.UniqueId + "/Items";
